@@ -1,0 +1,15 @@
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\bin\Debug\net6.0\SistemaTelemetria.exe
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\bin\Debug\net6.0\SistemaTelemetria.deps.json
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\bin\Debug\net6.0\SistemaTelemetria.runtimeconfig.json
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\bin\Debug\net6.0\SistemaTelemetria.dll
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\bin\Debug\net6.0\SistemaTelemetria.pdb
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\SistemaTelemetria.csproj.AssemblyReference.cache
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\SistemaTelemetria.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\SistemaTelemetria.AssemblyInfoInputs.cache
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\SistemaTelemetria.AssemblyInfo.cs
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\SistemaTelemetria.csproj.CoreCompileInputs.cache
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\SistemaTelemetria.dll
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\refint\SistemaTelemetria.dll
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\SistemaTelemetria.pdb
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\SistemaTelemetria.genruntimeconfig.cache
+D:\UCM\4GDV\UAJ\Sistema-Telemetria\SistemaTelemetria\SistemaTelemetria\obj\Debug\net6.0\ref\SistemaTelemetria.dll
