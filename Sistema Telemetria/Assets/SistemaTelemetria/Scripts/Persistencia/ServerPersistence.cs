@@ -13,7 +13,18 @@ public class ServerPersistence : IPersistence
 
     List<TrackerEvent> eventsBuff;
 
-    public string url = "https://neon-rider-ae6c3-default-rtdb.europe-west1.firebasedatabase.app/";
+    [SerializeField]
+    string apiKey = "Api Key";
+    [SerializeField]
+    string url = "URL";
+    [SerializeField]
+    string appId = "App ID";
+    [SerializeField]
+    string storageBucket = "Storage Bucket";
+    [SerializeField]
+    string messageSenderId = "Message Sender ID";
+    [SerializeField]
+    string projectId = "Project ID";
 
     JSONSerializer serializerJSON = null;   //JSON
     DatabaseReference reference;
@@ -28,12 +39,12 @@ public class ServerPersistence : IPersistence
 
         AppOptions options = new AppOptions
         {
-            ApiKey = "AIzaSyDxEcT2zNZyKJ6_PSwVgTHh14IQdgf7EFM",
+            ApiKey = apiKey,
             DatabaseUrl = new System.Uri(url),
-            AppId = "neon-rider-ae6c3",
-            StorageBucket = "neon-rider-ae6c3.appspot.com",
-            MessageSenderId = "989654265255",
-            ProjectId ="1:989654265255:web:d43dfdace0abe66d309a82"
+            AppId = appId,
+            StorageBucket = storageBucket,
+            MessageSenderId = messageSenderId,
+            ProjectId = projectId
         };
         FirebaseApp app = FirebaseApp.Create(options);
         
