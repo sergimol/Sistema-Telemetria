@@ -37,7 +37,6 @@ public class Tracker
 
     public void Init(long id)
     {
-        sessionId = id;
         //config = GetComponent<TrackerConfig>();
         filePersistence = new FilePersistence(true, true, true);
         //serverPersistence = new ServerPersistence();
@@ -46,6 +45,7 @@ public class Tracker
         eventsTracked.Add(type.Name, true);
         type = typeof(FinEvent);
         eventsTracked.Add(type.Name, true);
+        sessionId = id;
         AddEvent(new InicioEvent());
     }
 
