@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Para probar
 Tracker.Instance.Init(1806546515486);
 
 bool loop = true;

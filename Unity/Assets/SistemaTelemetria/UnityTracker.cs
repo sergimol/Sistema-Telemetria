@@ -23,6 +23,7 @@ public class UnityTracker : MonoBehaviour
     void Start()
     {
         Tracker.Instance.Init(AnalyticsSessionInfo.sessionId);
+        // Eventos correspondientes al juego
     }
 
     // Update is called once per frame

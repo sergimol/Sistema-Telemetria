@@ -38,14 +38,10 @@ public class Tracker
     public void Init(long id)
     {
         sessionId = id;
-        //config = GetComponent<TrackerConfig>();
         filePersistence = new FilePersistence(true, true, true);
-        //serverPersistence = new ServerPersistence();
 
-        Type type = typeof(InicioEvent);
-        eventsTracked.Add(type.Name, true);
-        type = typeof(FinEvent);
-        eventsTracked.Add(type.Name, true);
+        AddTrackableEvent<InicioEvent>(true);
+        AddTrackableEvent<FinEvent>(true);
         AddEvent(new InicioEvent());
     }
 
@@ -82,8 +78,28 @@ public class Tracker
         }
     }
 
-    public long getSessionId()
+    public long GetSessionId()
     {
         return sessionId;
+    }
+
+    public void AddTrackableEvent<T>(bool track)
+    {
+        if (!typeof(T).IsSubclassOf(typeof(TrackerEvent)))
+            return;
+
+        Type type = typeof(T);
+        if(!eventsTracked.ContainsKey(type.Name))
+            eventsTracked.Add(type.Name, track);
+    }
+
+    public void ChangeTrackableState<T>(bool track)
+    {
+        if (!typeof(T).IsSubclassOf(typeof(TrackerEvent)))
+            return;
+
+        Type type = typeof(T);
+        if (eventsTracked.ContainsKey(type.Name))
+            eventsTracked[type.Name] = track;
     }
 }
